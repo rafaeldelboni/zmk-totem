@@ -40,7 +40,7 @@ layers:
   - sim
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   nav:
-  - NI
+  - '1'
   - '2'
   - '3'
   - '4'
