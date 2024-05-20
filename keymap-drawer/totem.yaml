@@ -20,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - SEMI O
+  - ;
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - Z
   - X
@@ -139,7 +139,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:bluetooth-off$$
   - '&sys_reset'
-  - {t: ▽, type: trans}
+  - KP NLCK
   - F9
   - F10
   - F11
