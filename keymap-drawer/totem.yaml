@@ -54,7 +54,7 @@ layers:
   - '`'
   - '~'
   - ''''
-  - {t: ▽, type: trans}
+  - '&DQT'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
