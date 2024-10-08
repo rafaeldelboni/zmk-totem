@@ -165,7 +165,7 @@ path.combo {
 /* End Tabler Icons Cleanup */
 </style>
 <g transform="translate(30, 0)" class="layer-base">
-<text x="0" y="28" class="label">base</text>
+<text x="0" y="28" class="label" id="base">base</text>
 <g transform="translate(0, 56)">
 <g transform="translate(73, 113) rotate(-10.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -303,8 +303,9 @@ path.combo {
 </g>
 <g transform="translate(316, 245) rotate(15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">nav</text>
-</g>
+<a href="#nav">
+<text x="0" y="0" class="key tap layer-activator">nav</text>
+</a></g>
 <g transform="translate(377, 270) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-space"/>
@@ -315,8 +316,9 @@ path.combo {
 </g>
 <g transform="translate(526, 245) rotate(-15.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">sim</text>
-</g>
+<a href="#sim">
+<text x="0" y="0" class="key tap layer-activator">sim</text>
+</a></g>
 <g transform="translate(592, 236)" class="key keypos-37">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-esc"/>
@@ -325,7 +327,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 366)" class="layer-nav">
-<text x="0" y="28" class="label">nav</text>
+<text x="0" y="28" class="label" id="nav">nav</text>
 <g transform="translate(0, 56)">
 <g transform="translate(73, 113) rotate(-10.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -411,9 +413,9 @@ path.combo {
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(93, 223) rotate(-10.0)" class="key trans keypos-21">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(93, 223) rotate(-10.0)" class="key keypos-21">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:apple-keyboard-shift"/>
 </g>
 <g transform="translate(147, 174) rotate(-4.0)" class="key trans keypos-22">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
@@ -483,7 +485,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 731)" class="layer-sim">
-<text x="0" y="28" class="label">sim</text>
+<text x="0" y="28" class="label" id="sim">sim</text>
 <g transform="translate(0, 56)">
 <g transform="translate(73, 113) rotate(-10.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -640,7 +642,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 1097)" class="layer-adjust">
-<text x="0" y="28" class="label">adjust</text>
+<text x="0" y="28" class="label" id="adjust">adjust</text>
 <g transform="translate(0, 56)">
 <g transform="translate(73, 113) rotate(-10.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
