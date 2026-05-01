@@ -145,7 +145,10 @@ draw_config:
 parse_config:
   preprocess: true
   skip_binding_parsing: false
-  raw_binding_map: {}
+  raw_binding_map: {
+    "&bootloader": BOOT,
+    "&sys_reset": RESET,
+  }
   sticky_label: sticky
   toggle_label: toggle
   trans_legend:
@@ -275,7 +278,6 @@ parse_config:
     C_PP: $$mdi:play-pause$$
 
     # Bluetooth
-    BT_CLR_ALL: $$mdi:bluetooth-off$$
     BT_SEL: $$mdi:bluetooth-connect$$
 
     EXCLAMATION: '!'
