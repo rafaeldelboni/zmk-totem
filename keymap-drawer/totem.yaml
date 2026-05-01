@@ -1,6 +1,6 @@
-layout: {qmk_keyboard: totem}
+layout: {zmk_keyboard: totem}
 layers:
-  base:
+  BASE:
   - Q
   - W
   - E
@@ -34,12 +34,12 @@ layers:
   - /
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
-  - nav
+  - NAVI
   - $$mdi:keyboard-space$$
   - RET
-  - sim
+  - SYM
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
-  nav:
+  NAVI:
   - '1'
   - '2'
   - '3'
@@ -63,7 +63,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
-  - AGr+ ,
+  - AltGr+,
   - ':'
   - PSCRN
   - {t: ▽, type: trans}
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  sim:
+  SYM:
   - '!'
   - '@'
   - '#'
@@ -117,8 +117,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  adjust:
-  - '&bootloader'
+  ADJ:
+  - BOOT
   - F1
   - F2
   - F3
@@ -137,8 +137,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:bluetooth-off$$
-  - '&sys_reset'
+  - BT CLR ALL
+  - RESET
   - KP NLCK
   - F9
   - F10
